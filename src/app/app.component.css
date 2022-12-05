@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.first {
+  color: red;
+  font-size: 24px;
+}
+.second {
+  color: green;
+  font-size: 28px;
+}
+
+.enlargedFont {
+  font-size: 25px;
+  margin: 20px;
+}

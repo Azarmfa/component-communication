@@ -1,0 +1,14 @@
+<div>
+  <h2>Parent Component</h2>
+  <br />
+  <h4>
+    This value from child
+
+    {{ childToParentValue }}
+  </h4>
+  <br />
+  <child-component
+    [toChild]="toChild"
+    (eventChild)="childToParent($event)"
+  ></child-component>
+</div>
